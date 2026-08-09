@@ -30,14 +30,14 @@ export default function Login() {
               </div>
               {/*guest container*/}
               <div className="flex flex-col gap-3">
-                <button className="rounded-full bg-[#171717] text-white text-sm w-full px-3 py-2">
+                <button className="rounded-full hover:cursor-pointer bg-[#171717] text-white text-sm w-full px-3 py-2">
                   Continue as Guest
                 </button>
-                <button className="flex items-center border border-[#e5e5e5] justify-center px-3 bg-white w-full rounded-full py-2 gap-2">
+                <button className="flex hover:cursor-pointer items-center border border-[#e5e5e5] justify-center px-3 bg-white w-full rounded-full py-2 gap-2">
                   <RiGoogleFill className="h-4 w-4" />
-                  <button className="text-sm bg-white font-medium font-sans leading-none">
+                  <p className="text-sm bg-white font-medium font-sans leading-none">
                     Login with Google
-                  </button>
+                  </p>
                 </button>
               </div>
             </div>
