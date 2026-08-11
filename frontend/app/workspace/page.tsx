@@ -1,4 +1,5 @@
 import Sidebar from "@/src/components/sidebar";
+import WorkspaceContent from "@/src/components/WorkspaceContent";
 export default function page() {
     return (
         <div className="w-full min-h-screen grid grid-cols-[1fr_4fr] ">
@@ -6,9 +7,9 @@ export default function page() {
             <aside className="bg-[#fafafa]">
                 <Sidebar />
             </aside>
-            {/* Main Content */}
-            <main className="bg-red-500">
-                             
+            {/* Workspace Content */}
+            <main className="">
+                <WorkspaceContent />
             </main>
         </div>
     );

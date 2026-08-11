@@ -1,4 +1,4 @@
-import { ChevronDown, ChevronsUpDown } from "lucide-react";
+import { ChevronDown, ChevronsUpDown, LayoutGrid, GalleryVerticalEnd } from "lucide-react";
 import Workspace from "./workspace";
 
 export default function Sidebar() {
@@ -7,14 +7,14 @@ export default function Sidebar() {
     {
         title: "tasks",
         address:"/",
-        icon:"",
-        active: true
+        icon:<LayoutGrid />,
+        active: false
     },
     {
         title: "projects",
         address:"/",
-        icon:"",
-        active: false
+        icon:<GalleryVerticalEnd />,
+        active: true
     }
   ]
 
