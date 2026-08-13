@@ -8,7 +8,7 @@ export default function page() {
                 <Sidebar />
             </aside>
             {/* Workspace Content */}
-            <main className="">
+            <main className="min-w-0">
                 <WorkspaceContent />
             </main>
         </div>

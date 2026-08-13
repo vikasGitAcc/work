@@ -20,7 +20,7 @@ interface cardContainerProps {
 
 function CardContainer({ title, data }: cardContainerProps) {
     return (
-        <div className="border min-w-[289px] h-fit rounded-lg border-borderGray bg-primary">
+        <div className="border w-[289px] shrink-0 h-fit rounded-lg border-borderGray bg-primary">
             <header>
                 <ComponentContainer>
                     {/* header section */}

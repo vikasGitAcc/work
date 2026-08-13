@@ -1,5 +1,5 @@
 import { ChevronDown, ChevronsUpDown, LayoutGrid, GalleryVerticalEnd } from "lucide-react";
-import Workspace from "./workspace";
+import SidebarWorkspace from "./workspace";
 
 export default function Sidebar() {
 
@@ -19,7 +19,7 @@ export default function Sidebar() {
   ]
 
   return (
-    <div className="w-full h-full border-r border-[#FAFAFA]">
+    <div className="w-full h-full border-r border-primaryForeground">
       <header className="w-full flex p-2">
         <div className="px-3 gap-2 w-full flex justify-between py-2 items-center ">
           {/* Logo */}
@@ -52,7 +52,7 @@ export default function Sidebar() {
            <div className="w-full flex flex-col">
                 {randomData.map((item, index) => (
                     <div key={index} className="w-full">
-                       <Workspace title={item.title} icon={item.icon} address={item.address} active={item.active} />
+                       <SidebarWorkspace title={item.title} icon={item.icon} address={item.address} active={item.active} />
                     </div>
                 ))}
            </div>
