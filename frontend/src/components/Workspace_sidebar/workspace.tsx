@@ -1,7 +1,14 @@
 import Link from "next/link"; 
 import { ReactNode } from "react";
 
-export default function SidebarWorkspace({title, icon, address, active}: {title: string, icon: ReactNode, address: string, active: boolean}) {
+interface sidebarWorkspaceProps {
+    title: string;
+    icon: ReactNode;
+    address: string;
+    active: boolean;
+}
+
+export default function SidebarWorkspace({title, icon, address, active}: sidebarWorkspaceProps) {
     return (
         <Link href={address} className={`${active?"bg-primary rounded-xl":""} h-9 px-3 py-2 flex items-center gap-2`}>
             {/* icon */}

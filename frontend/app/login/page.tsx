@@ -18,7 +18,7 @@ export default function Login() {
           {/* Login Form */}
           <div className="w-full">
             {/*`container*/}
-            <div className="w-[384px] h-[202px] flex flex-col bg-white rounded-4xl border border-[#e5e5e5] gap-6 p-6">
+            <div className="w-[384px] h-50.5 flex flex-col bg-white rounded-4xl border border-borderGray gap-6 p-6">
               {/* Heading and sub-heading */}
               <div className="flex flex-col gap-1.5">
                 <h1 className="text-xl font-semibold leading-none text-[#0A0A0A] text-center">
@@ -33,7 +33,7 @@ export default function Login() {
                 <button className="rounded-full hover:cursor-pointer bg-[#171717] text-white text-sm w-full px-3 py-2">
                   Continue as Guest
                 </button>
-                <button className="flex hover:cursor-pointer items-center border border-[#e5e5e5] justify-center px-3 bg-white w-full rounded-full py-2 gap-2">
+                <button className="flex hover:cursor-pointer items-center border border-borderGray justify-center px-3 bg-white w-full rounded-full py-2 gap-2">
                   <RiGoogleFill className="h-4 w-4" />
                   <p className="text-sm bg-white font-medium font-sans leading-none">
                     Login with Google
@@ -44,14 +44,14 @@ export default function Login() {
           </div>
           {/* Terms and conditions */}
           <div className="w-full flex justify-center items-center">
-            <div className="w-[208px]">
+            <div className="w-52">
               <p className="text-xs font-normal font-sans text-[#737373] text-center">
                 By clicking continue, you agree to our{" "}
-                <a href="#" className="underline decoration-[#e5e5e5]">
+                <a href="#" className="underline decoration-borderGray">
                   Terms of Service
                 </a>{" "}
                 and{" "}
-                <a href="#" className="underline decoration-[#e5e5e5]">
+                <a href="#" className="underline decoration-borderGray">
                   Privacy Policy
                 </a>
                 .
